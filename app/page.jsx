@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { HeroSection, FeatureSection, Stats, Workings, Testimontials } from "@/components/index";
+import { HeroSection, FeatureSection, Stats, Workings, Testimontials, FrequentQuestions, CTA } from "@/components/index";
 
 export default function Home() {
   return (
@@ -12,6 +12,8 @@ export default function Home() {
       <Stats/>
       <Workings/>
       <Testimontials/>
+      <FrequentQuestions/>
+      <CTA/>
     </div>
   );
 }
